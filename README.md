@@ -8,9 +8,9 @@ A small parser from public source to get CSV database of killed orcs.
 
 File `tmp/db.csv` will be created.
 
-`node src/index.js -c` - collect the data as html format.
+`node src/index.js -c` - collect the data into html format and convert into csv format.
 
-`node src/index.js -p` - parse the html format and convert into csv.
+`node src/index.js -p` - parse the csv format.
 
 `node src/index.js --help` - to get help
 
