@@ -1,0 +1,19 @@
+{
+  "name": "orcs-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js -c && node src/index.js -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "node-fetch": "^3.2.10",
+    "node-html-parser": "^5.4.2-0"
+  }
+}
